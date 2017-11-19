@@ -7,8 +7,9 @@
     <title>TWITTER</title>
   </head>
   <body>
-    <h1>Twitter</h1>
-   <div class="container">
+    <video src="assets/images/exo.mp4" autoplay loop muted > </video>
+   <h1>Twitter</h1>
+   <div class="container" id="container">
      <h2>Reto de código</h2>
      <p>Hola, <br>
        soy forntend developer js.
@@ -18,10 +19,15 @@
      <span> <strong>CÓDIGO</strong> </span>
    </div>
 
-   <form class="form" action="index.html" method="post">
-     <textarea  class="textarea" name="name" rows="8" cols="80"></textarea>
+   <form class="form" action="index.html" method="post" type="submit"  >
+     <textarea  class="textarea" name="name" rows="8" cols="80"  required  onkeyUp="disabled()"></textarea>
      <hr>
-     <input class="input-button" type="button" name="" value="text">
+     <input id="button" class="button" type="button" name="" value="text">
+     <input id="number" type="" name="" value="" >
    </form>
+
+   <script type="text/javascript" src="js/app.js">
+
+   </script>
   </body>
 </html>
