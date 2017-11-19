@@ -5,15 +5,42 @@ body{
   font-family: 'Cutive', serif;
 }
 
-h1{
+body h1{
   margin: 0;
   text-align: center;
   background-color: #1da1f2;
   color: white;
+  font-size: 30px;
+  padding: 8px;
 }
 
-.container{
+body .container{
   outline: 2px solid red;
   display: inline-block;
-  padding: 20px;
+  padding: 30px 100px 30px 20px;
+  font-size: 14px;
+  margin:10px 10px 10px 70px;
+  position: static;
+  float:left;
+}
+
+body .form{
+  display:inline-block;
+  margin:10px;
+  float: left;
+}
+
+body .form .textarea{
+  width: 250px;
+}
+
+body .form hr{
+  margin-top: 20px;
+}
+
+body .form .input-button{
+  padding: 5px 20px 5px 20px;
+  background-color: #1da1f2;
+  color: white;
+  margin-top: 15px;
 }
