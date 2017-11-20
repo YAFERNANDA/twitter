@@ -19,14 +19,15 @@
      <span> <strong>CÓDIGO</strong> </span>
    </div>
 
-   <form class="form" action="index.html" method="post" type="submit"  >
-     <textarea  class="textarea" name="name" rows="8" cols="80"  required  onkeyUp="disabled()"></textarea>
+   <form class="form" action="index.html" method="post" type="submit" name="formulario1" >
+     <textarea  id="textarea" class="textarea" name="textarea1" type="submit"
+     rows="8" cols="80" onKeyPress="calcular()" onKeyUp="calcular()" required></textarea>
      <hr>
-     <input id="button" class="button" type="button" name="" value="text">
-     <input id="number" type="" name="" value="" >
+     <input id="button" class="button" type="button" name="" value="submit">
+     <span id="number" name="number">140</span>
    </form>
 
-   <script type="text/javascript" src="js/app.js">
+   <script type="text/javascript" src="app1.js">
 
    </script>
   </body>

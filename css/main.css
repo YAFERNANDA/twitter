@@ -66,9 +66,28 @@ body .form .button{
   background-color: #1da1f2;
   color: white;
   margin-top: 15px;
+  border-style: none;
 }
 
-body .form .number{
-  position: fixed;
-  right: 5px;
+body .form #number{
+  width: 40px;
+  position:relative;
+  left: 50%;
+  border-style: none;
+
+}
+
+
+.red{
+  color: red;
+  border-color: red;
+}
+
+.green{
+  color: green;
+  border-color: green;
+}
+.yellow{
+  color: yellow;
+  border-color: yellow;
 }
