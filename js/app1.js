@@ -9,7 +9,9 @@ function formulario () {
 //validamos que el formulario no este vacio.
 
  if (textArea == ''){
+   alert('Ingrese texto porfavor');
    number.classList.add ('red');
+   .classList.add ('textstyle')
 
    //cuando el contenido sea vacio el boton submit se deshabilita.
    var button = document.getElementById('button');
@@ -21,11 +23,18 @@ function formulario () {
    else if(textArea.length > 130){
    number.classList.add ('yellow');
  };*/
+   var body = document.getElementById('body');
+   var secctio2 =document.getElementById('secction2');
 
+   var text = document.createElement ('div');
+   text.setAttribute('class', 'text');
+   text.textContent = textArea;
+   text.classList.add ('new');
 
- var text = document.createElement ('div');
- text.setAttribute('class', 'text');
- text.texContent = textArea;
+   body.appendChild(text);
+   secction2.appendChild(text);
+
+   textArea.value = '';
 
 };
 

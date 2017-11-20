@@ -91,3 +91,19 @@ body .form #number{
   color: yellow;
   border-color: yellow;
 }
+
+.new{
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  padding: 20px;
+  margin: 50px;
+  margin-left: 100px;
+  float: left;
+
+}
+.textstyle{
+  background-color: red;
+  border-style: dotted;
+  border-color: red;
+}
